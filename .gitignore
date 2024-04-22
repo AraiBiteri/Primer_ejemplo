@@ -1,0 +1,8 @@
+#esto es un comentario
+#despues de este punto digo que ignore los csv, xlsx y xlsx
+*.csv
+*.xls
+*.xlsx
+
+#siquiera ignorar una carpeta
+/nombre_carpeta
