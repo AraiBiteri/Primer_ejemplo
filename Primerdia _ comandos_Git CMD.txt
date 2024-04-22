@@ -1,0 +1,412 @@
+
+C:\Users\pieza>dir
+ El volumen de la unidad C es OS
+ El número de serie del volumen es: 9C2D-EEF7
+
+ Directorio de C:\Users\pieza
+
+12/03/2024  20:51    <DIR>          .
+17/08/2023  13:50    <DIR>          ..
+18/08/2023  08:31    <DIR>          .ms-ad
+17/08/2023  13:47    <DIR>          Contacts
+17/08/2023  13:49    <DIR>          Documents
+17/04/2024  10:08    <DIR>          Downloads
+17/08/2023  13:47    <DIR>          Favorites
+24/11/2023  07:22    <DIR>          Library
+17/08/2023  13:47    <DIR>          Links
+17/08/2023  13:47    <DIR>          Music
+17/08/2023  13:53    <DIR>          OneDrive
+17/08/2023  13:47    <DIR>          Saved Games
+17/08/2023  13:50    <DIR>          Searches
+21/03/2024  11:47    <DIR>          Videos
+13/02/2024  01:37    <DIR>          wekafiles
+               0 archivos              0 bytes
+              15 dirs  375.756.382.208 bytes libres
+
+C:\Users\pieza>git config -- list
+error: key does not contain a section: list
+
+C:\Users\pieza>git config --list
+pack.packsizelimit=2g
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files (x86)/Git/mingw32/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+
+C:\Users\pieza>git config --global user.name "Arai Biteri"
+
+C:\Users\pieza>git config --list
+pack.packsizelimit=2g
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files (x86)/Git/mingw32/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=Arai Biteri
+
+C:\Users\pieza>git config user.email "arai.biteri@alumni.mondragon.edu"
+fatal: not in a git directory
+
+C:\Users\pieza>git config --list
+pack.packsizelimit=2g
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files (x86)/Git/mingw32/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=Arai Biteri
+
+C:\Users\pieza>git config --global user.email "arai.biteri@alumni.mondragon.edu"
+
+C:\Users\pieza>git config --list
+pack.packsizelimit=2g
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files (x86)/Git/mingw32/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=Arai Biteri
+user.email=arai.biteri@alumni.mondragon.edu
+
+C:\Users\pieza>git config --global core.editor VIM
+
+C:\Users\pieza>git config --list
+pack.packsizelimit=2g
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files (x86)/Git/mingw32/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=Arai Biteri
+user.email=arai.biteri@alumni.mondragon.edu
+core.editor=VIM
+
+C:\Users\pieza>cd Documents
+
+C:\Users\pieza\Documents>C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git
+"C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Users\pieza\Documents>cdC:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git
+El nombre de archivo, el nombre de directorio o la sintaxis de la etiqueta del volumen no son correctos.
+C:\Users\pieza\Documents>
+C:\Users\pieza\Documents>
+C:\Users\pieza\Documents>cd C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>git init
+Initialized empty Git repository in C:/Users/pieza/OneDrive/Escritorio/Bdata1/Data Science 1/RETO4/Primer_ej_git/.git/
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        archivo1.txt
+        archivo2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>git add archivo1.txt
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   archivo1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        archivo2.txt
+
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>git comit -m "Comiteamos el primer archivo"
+git: 'comit' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>git commit -m "Comiteamos el primer archivo"
+[master (root-commit) 1bed0de] Comiteamos el primer archivo
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 archivo1.txt
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        archivo2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>git log
+commit 1bed0de7d5fc85e4f6a9d2648069c9bfe8398a39 (HEAD -> master)
+Author: Arai Biteri <arai.biteri@alumni.mondragon.edu>
+Date:   Wed Apr 17 10:40:44 2024 +0200
+
+    Comiteamos el primer archivo
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>git log --oneline
+1bed0de (HEAD -> master) Comiteamos el primer archivo
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Una_carpeta/
+        archivo2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>git add .
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Una_carpeta/otrofichero.txt
+        new file:   Una_carpeta/otrofichero2.txt
+        new file:   archivo2.txt
+
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>git commit -m "Comiteamos muchos ficheros"
+[master 37d6377] Comiteamos muchos ficheros
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Una_carpeta/otrofichero.txt
+ create mode 100644 Una_carpeta/otrofichero2.txt
+ create mode 100644 archivo2.txt
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>git log --oneline
+37d6377 (HEAD -> master) Comiteamos muchos ficheros
+1bed0de Comiteamos el primer archivo
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>git log
+commit 37d63778e01e630bd5a5e1d9517aa08d445471b0 (HEAD -> master)
+Author: Arai Biteri <arai.biteri@alumni.mondragon.edu>
+Date:   Wed Apr 17 10:47:28 2024 +0200
+
+    Comiteamos muchos ficheros
+
+commit 1bed0de7d5fc85e4f6a9d2648069c9bfe8398a39
+Author: Arai Biteri <arai.biteri@alumni.mondragon.edu>
+Date:   Wed Apr 17 10:40:44 2024 +0200
+
+    Comiteamos el primer archivo
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>git restore archivo1.txt
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   archivo1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>git add .
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   archivo1.txt
+
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>git commit -m "archivo 1 modificado"
+[master 741d24e] archivo 1 modificado
+ 1 file changed, 1 insertion(+)
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>git branch rama_Arai
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>git branch -a
+* master
+  rama_Arai
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>git checkout rama_Arai
+Switched to branch 'rama_Arai'
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>git branch -a
+  master
+* rama_Arai
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>git status
+On branch rama_Arai
+nothing to commit, working tree clean
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>git add .
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>git status
+On branch rama_Arai
+nothing to commit, working tree clean
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>git status
+On branch rama_Arai
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        archivo3.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>git add .
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>git status
+On branch rama_Arai
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   archivo3.txt
+
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>git commit -m "creo fichero 3"
+[rama_Arai 8918909] creo fichero 3
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 archivo3.txt
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>git log
+commit 89189092903c86293266d51b7c110bbf03227338 (HEAD -> rama_Arai)
+Author: Arai Biteri <arai.biteri@alumni.mondragon.edu>
+Date:   Wed Apr 17 11:01:59 2024 +0200
+
+    creo fichero 3
+
+commit 741d24ecc9488735f8c7154bffc2da61621ed3d4 (master)
+Author: Arai Biteri <arai.biteri@alumni.mondragon.edu>
+Date:   Wed Apr 17 10:54:17 2024 +0200
+
+    archivo 1 modificado
+
+commit 37d63778e01e630bd5a5e1d9517aa08d445471b0
+Author: Arai Biteri <arai.biteri@alumni.mondragon.edu>
+Date:   Wed Apr 17 10:47:28 2024 +0200
+
+    Comiteamos muchos ficheros
+
+commit 1bed0de7d5fc85e4f6a9d2648069c9bfe8398a39
+Author: Arai Biteri <arai.biteri@alumni.mondragon.edu>
+Date:   Wed Apr 17 10:40:44 2024 +0200
+
+    Comiteamos el primer archivo
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>git checkout master
+Switched to branch 'master'
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>git checkout rama_Arai
+Switched to branch 'rama_Arai'
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>git branch -a
+  master
+* rama_Arai
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>git merge rama_Arai
+Already up to date.
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>git checkout master
+Switched to branch 'master'
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>git merge rama_Arai
+Updating 741d24e..8918909
+Fast-forward
+ archivo3.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 archivo3.txt
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>git branch -d rama_Arai
+Deleted branch rama_Arai (was 8918909).
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>git log
+commit 89189092903c86293266d51b7c110bbf03227338 (HEAD -> master)
+Author: Arai Biteri <arai.biteri@alumni.mondragon.edu>
+Date:   Wed Apr 17 11:01:59 2024 +0200
+
+    creo fichero 3
+
+commit 741d24ecc9488735f8c7154bffc2da61621ed3d4
+Author: Arai Biteri <arai.biteri@alumni.mondragon.edu>
+Date:   Wed Apr 17 10:54:17 2024 +0200
+
+    archivo 1 modificado
+
+commit 37d63778e01e630bd5a5e1d9517aa08d445471b0
+Author: Arai Biteri <arai.biteri@alumni.mondragon.edu>
+Date:   Wed Apr 17 10:47:28 2024 +0200
+
+    Comiteamos muchos ficheros
+
+commit 1bed0de7d5fc85e4f6a9d2648069c9bfe8398a39
+Author: Arai Biteri <arai.biteri@alumni.mondragon.edu>
+Date:   Wed Apr 17 10:40:44 2024 +0200
+
+    Comiteamos el primer archivo
+
+C:\Users\pieza\OneDrive\Escritorio\Bdata1\Data Science 1\RETO4\Primer_ej_git>
